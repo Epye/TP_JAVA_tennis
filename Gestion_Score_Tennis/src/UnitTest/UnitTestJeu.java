@@ -33,13 +33,17 @@ public class UnitTestJeu {
         jeu.updateWithPointWonBy(player1);
         jeu.updateWithPointWonBy(player1);
         jeu.updateWithPointWonBy(player1);
-        jeu.updateWithPointWonBy(player1);
+
         jeu.updateWithPointWonBy(player2);
         jeu.updateWithPointWonBy(player2);
         jeu.updateWithPointWonBy(player2);
         jeu.updateWithPointWonBy(player2);
 
-        assertEquals("40", jeu.getCurrentScorePlayer(player1));
+        jeu.updateWithPointWonBy(player1);
+        jeu.updateWithPointWonBy(player1);
+
+        assertEquals("40", jeu.getCurrentScorePlayer(player2));
+        assertEquals("A", jeu.getCurrentScorePlayer(player1));
 
     }
 

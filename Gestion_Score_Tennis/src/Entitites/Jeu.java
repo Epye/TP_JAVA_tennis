@@ -13,18 +13,22 @@ public class Jeu implements Game {
         return currentScore.get(player).getScore();
     }
 
-    /***
-     * Met à jour les points d'un joueur
-     * @param player
-     */
-
     @Override
     public void updateWithPointWonBy(Player player) {
-        currentScore.get(player).winPoint();
+        Player otherPlayer = new Player("");
         for (HashMap.Entry<Player, Score> entry : currentScore.entrySet()) {
             Player key = entry.getKey();
-            currentScore.get(key).loosePoint();
-
+            if(!key.getName().equals(player.getName())){
+                otherPlayer = key;
+            }
+        }
+        if(currentScore.get(otherPlayer).getScore().equals("A")){
+            currentScore.get(otherPlayer).loosePoint();
+        }else{
+            currentScore.get(player).winPoint();
+        }
+        if(currentScore.get(player).getScore().equals("A") && !currentScore.get(otherPlayer).getScore().equals("40")){
+            currentScore.get(player).winPoint();
         }
     }
 }

@@ -14,13 +14,18 @@ public class JeuTieBreak implements Game{
         return currentScore.get(player).getScore();
     }
 
-    /***
-     * Met à jour les points d'un joueur
-     * @param player
-     */
-
     @Override
     public void updateWithPointWonBy(Player player) {
+        Player otherPlayer = new Player("");
         currentScore.get(player).winPoint();
+        for (HashMap.Entry<Player, Score> entry : currentScore.entrySet()) {
+            Player key = entry.getKey();
+            if(!key.getName().equals(player.getName())){
+                otherPlayer = key;
+            }
+        }
+        if(Integer.parseInt(currentScore.get(player).getScore()) >= 6 && Integer.parseInt(currentScore.get(player).getScore()) > Integer.parseInt(currentScore.get(otherPlayer).getScore()) -2){
+            currentScore.get(player).setWin();
+        }
     }
 }

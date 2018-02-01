@@ -21,4 +21,10 @@ public class ScoreNumber implements Score {
     public void loosePoint() {
 
     }
+
+    @Override
+    public void setWin() {
+        this.score = "WIN";
+    }
+
 }

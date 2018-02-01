@@ -10,27 +10,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Gestion_Score_Tennis$AllUnitTest.coverage" NAME="AllUnitTest Coverage Results" MODIFIED="1517498119916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Gestion_Score_Tennis$UnitTestJeu.coverage" NAME="UnitTestJeu Coverage Results" MODIFIED="1517490671716" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49041533">
+    <splitter split-orientation="horizontal" split-proportion="0.4587879">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="UnitTestPlayer.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/UnitTest/UnitTestPlayer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AllUnitTest.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="AllUnitTest.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/UnitTest/AllUnitTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -38,11 +30,30 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UnitTestMatch.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="UnitTestMatch.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/UnitTest/UnitTestMatch.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+                <state relative-caret-position="239">
+                  <caret line="91" column="34" lean-forward="true" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="method#testCreationMatch#0;class#UnitTestMatch#0" expanded="false" />
+                    <element signature="method#testUpdateWithPointWonBy#0;class#UnitTestMatch#0" expanded="false" />
+                    <element signature="method#testNewSetIfWin#0;class#UnitTestMatch#0" expanded="false" />
+                    <element signature="method#testWinMatch3#0;class#UnitTestMatch#0" expanded="false" />
+                    <element signature="method#testWinMatch3Tie#0;class#UnitTestMatch#0" expanded="false" />
+                    <element signature="method#testWinMatch5Tie#0;class#UnitTestMatch#0" expanded="false" />
+                    <element signature="method#winSet#0;class#UnitTestMatch#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UnitTestJeu.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/UnitTest/UnitTestJeu.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="275">
+                  <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -53,29 +64,29 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file leaf-file-name="TennisMatch.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Entitites/TennisMatch.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="601">
-                  <caret line="83" column="45" lean-forward="false" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+                <state relative-caret-position="451">
+                  <caret line="141" column="187" lean-forward="false" selection-start-line="141" selection-start-column="187" selection-end-line="141" selection-end-column="187" />
                   <folding>
-                    <element signature="e#849#850#0" expanded="true" />
-                    <element signature="e#879#880#0" expanded="true" />
-                    <element signature="e#913#914#0" expanded="true" />
-                    <element signature="e#943#944#0" expanded="true" />
-                    <element signature="e#982#983#0" expanded="true" />
-                    <element signature="e#1014#1015#0" expanded="true" />
-                    <element signature="e#1043#1044#0" expanded="true" />
-                    <element signature="e#1070#1071#0" expanded="true" />
-                    <element signature="e#1400#1401#0" expanded="true" />
-                    <element signature="e#1457#1458#0" expanded="true" />
-                    <element signature="e#1494#1495#0" expanded="true" />
-                    <element signature="e#1518#1519#0" expanded="true" />
-                    <element signature="e#1578#1579#0" expanded="true" />
-                    <element signature="e#1602#1603#0" expanded="true" />
-                    <element signature="e#1670#1671#0" expanded="true" />
-                    <element signature="e#1694#1695#0" expanded="true" />
+                    <element signature="method#TennisMatch#0;class#TennisMatch#0" expanded="false" />
+                    <element signature="e#1292#1293#0" expanded="true" />
+                    <element signature="e#1349#1350#0" expanded="true" />
+                    <element signature="e#1386#1387#0" expanded="true" />
+                    <element signature="e#1432#1433#0" expanded="true" />
+                    <element signature="method#gamesInCurrentSetForPlayer#0;class#TennisMatch#0" expanded="false" />
+                    <element signature="method#gamesInSetForPlayer#0;class#TennisMatch#0" expanded="false" />
+                    <element signature="method#isFinished#0;class#TennisMatch#0" expanded="false" />
+                    <element signature="method#afficheScore#0;class#TennisMatch#0" expanded="false" />
+                    <element signature="method#resetGame#0;class#TennisMatch#0" expanded="false" />
+                    <element signature="method#winSetPlayer1#0;class#TennisMatch#0" expanded="false" />
+                    <element signature="method#winSetPlayer2#0;class#TennisMatch#0" expanded="false" />
+                    <element signature="method#setWinforPlayer2#0;class#TennisMatch#0" expanded="false" />
+                    <element signature="method#newSet#0;class#TennisMatch#0" expanded="false" />
+                    <element signature="method#balleDeMatch#0;class#TennisMatch#0" expanded="false" />
+                    <element signature="method#endMatch#0;class#TennisMatch#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -84,11 +95,11 @@
           <file leaf-file-name="Jeu.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Entitites/Jeu.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+                <state relative-caret-position="150">
+                  <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
                   <folding>
-                    <element signature="e#363#364#0" expanded="true" />
-                    <element signature="e#421#422#0" expanded="true" />
+                    <element signature="method#Jeu#0;class#Jeu#0" expanded="false" />
+                    <element signature="method#updateWithPointWonBy#0;class#Jeu#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -97,13 +108,11 @@
           <file leaf-file-name="JeuTieBreak.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/Entitites/JeuTieBreak.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+                <state relative-caret-position="150">
+                  <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
                   <folding>
-                    <element signature="e#398#399#0" expanded="true" />
-                    <element signature="e#456#457#0" expanded="true" />
-                    <element signature="e#605#606#0" expanded="true" />
-                    <element signature="e#656#657#0" expanded="true" />
+                    <element signature="method#JeuTieBreak#0;class#JeuTieBreak#0" expanded="false" />
+                    <element signature="method#updateWithPointWonBy#0;class#JeuTieBreak#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -121,9 +130,6 @@
         <option value="Interface" />
       </list>
     </option>
-  </component>
-  <component name="FindBugs-IDEA-Workspace">
-    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -151,19 +157,25 @@
         <option value="$PROJECT_DIR$/src/Entitites/Game.java" />
         <option value="$PROJECT_DIR$/src/UnitTest/UnitTestPlayer.java" />
         <option value="$PROJECT_DIR$/src/UnitTest/UnitTestJeuTieBreak.java" />
-        <option value="$PROJECT_DIR$/src/UnitTest/UnitTestMatch.java" />
-        <option value="$PROJECT_DIR$/src/UnitTest/UnitTestJeu.java" />
         <option value="$PROJECT_DIR$/src/Entitites/ScoreC.java" />
+        <option value="$PROJECT_DIR$/src/Entitites/ScoreJeuNumber.java" />
+        <option value="$PROJECT_DIR$/src/UnitTest/AllUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/UnitTest/UnitTestJeu.java" />
         <option value="$PROJECT_DIR$/src/Entitites/Score.java" />
         <option value="$PROJECT_DIR$/src/Entitites/ScoreJeu.java" />
-        <option value="$PROJECT_DIR$/src/Entitites/ScoreJeuNumber.java" />
         <option value="$PROJECT_DIR$/src/Entitites/ScoreNumber.java" />
         <option value="$PROJECT_DIR$/src/Entitites/JeuTieBreak.java" />
         <option value="$PROJECT_DIR$/src/Entitites/Jeu.java" />
         <option value="$PROJECT_DIR$/src/Entitites/TennisMatch.java" />
-        <option value="$PROJECT_DIR$/src/UnitTest/AllUnitTest.java" />
+        <option value="$PROJECT_DIR$/src/UnitTest/UnitTestMatch.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1920" />
@@ -184,8 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,14 +228,18 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="extract.method.default.visibility" value="private" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -307,35 +321,15 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UnitTestJeuTieBreak" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="Gestion_Score_Tennis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnitTestJeuTieBreak" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="UnitTestMatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTestMatch.testUpdateWithPointWonBy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Gestion_Score_Tennis" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="UnitTestMatch" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="testUpdateWithPointWonBy" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -347,15 +341,35 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="UnitTestPlayer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTestMatch.testWinMatch3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Gestion_Score_Tennis" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UnitTestPlayer" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="UnitTestMatch" />
+      <option name="METHOD_NAME" value="testWinMatch3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="UnitTestMatch.testWinMatch3Tie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="Gestion_Score_Tennis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UnitTestMatch" />
+      <option name="METHOD_NAME" value="testWinMatch3Tie" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -429,18 +443,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AllUnitTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTestMatch" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTestJeu" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTestJeuTieBreak" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UnitTestPlayer" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTestJeu" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTestMatch.testUpdateWithPointWonBy" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTestMatch.testWinMatch3" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.UnitTestMatch.testWinMatch3Tie" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.AllUnitTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTestJeu" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTestJeuTieBreak" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTestPlayer" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UnitTestMatch" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UnitTestMatch.testWinMatch3Tie" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UnitTestMatch.testWinMatch3" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.UnitTestMatch.testUpdateWithPointWonBy" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.UnitTestJeu" />
       </list>
     </recent_temporary>
   </component>
@@ -461,35 +475,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AllUnitTest - 2017.12.14 at 16h 35m 24s.xml">
+    <history-entry file="AllUnitTest - 2018.02.01 at 16h 15m 03s.xml">
       <configuration name="AllUnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllUnitTest - 2017.12.14 at 16h 47m 17s.xml">
+    <history-entry file="AllUnitTest - 2018.02.01 at 16h 15m 05s.xml">
       <configuration name="AllUnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllUnitTest - 2017.12.14 at 16h 49m 16s.xml">
+    <history-entry file="AllUnitTest - 2018.02.01 at 16h 15m 20s.xml">
       <configuration name="AllUnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllUnitTest - 2017.12.14 at 16h 49m 43s.xml">
+    <history-entry file="AllUnitTest - 2018.02.01 at 16h 34m 27s.xml">
       <configuration name="AllUnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllUnitTest - 2017.12.14 at 16h 58m 24s.xml">
+    <history-entry file="AllUnitTest - 2018.02.01 at 16h 34m 52s.xml">
       <configuration name="AllUnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllUnitTest - 2017.12.14 at 16h 58m 56s.xml">
+    <history-entry file="AllUnitTest - 2018.02.01 at 17h 29m 08s.xml">
       <configuration name="AllUnitTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AllUnitTest - 2017.12.14 at 17h 06m 00s.xml">
-      <configuration name="AllUnitTest" configurationId="JUnit" />
+    <history-entry file="UnitTestMatch_testWinMatch3Tie - 2018.02.01 at 16h 35m 08s.xml">
+      <configuration name="UnitTestMatch.testWinMatch3Tie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTestJeu - 2017.12.14 at 16h 21m 29s.xml">
-      <configuration name="UnitTestJeu" configurationId="JUnit" />
+    <history-entry file="UnitTestMatch_testWinMatch3Tie - 2018.02.01 at 17h 09m 44s.xml">
+      <configuration name="UnitTestMatch.testWinMatch3Tie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTestJeu - 2017.12.14 at 16h 21m 49s.xml">
-      <configuration name="UnitTestJeu" configurationId="JUnit" />
+    <history-entry file="UnitTestMatch_testWinMatch3Tie - 2018.02.01 at 17h 10m 07s.xml">
+      <configuration name="UnitTestMatch.testWinMatch3Tie" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UnitTestJeu - 2017.12.14 at 16h 21m 57s.xml">
-      <configuration name="UnitTestJeu" configurationId="JUnit" />
+    <history-entry file="UnitTestMatch_testWinMatch3Tie - 2018.02.01 at 17h 29m 04s.xml">
+      <configuration name="UnitTestMatch.testWinMatch3Tie" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -498,28 +512,29 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960597" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12034079" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12140575" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973376" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39920557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969216" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -529,9 +544,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="15" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="pointsForPlayer(player1)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/UnitTest/UnitTestPlayer.java">
@@ -539,7 +562,93 @@
         <state relative-caret-position="225">
           <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UnitTest/UnitTestMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#testCreationMatch#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testUpdateWithPointWonBy#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testNewSetIfWin#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testWinMatch3#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testWinMatch3Tie#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testWinMatch5Tie#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#winSet#0;class#UnitTestMatch#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UnitTest/AllUnitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entitites/TennisMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#TennisMatch#0;class#TennisMatch#0" expanded="false" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="method#gamesInCurrentSetForPlayer#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#gamesInSetForPlayer#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#isFinished#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#afficheScore#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#resetGame#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#winSetPlayer1#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#winSetPlayer2#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#setWinforPlayer2#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#newSet#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#balleDeMatch#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#endMatch#0;class#TennisMatch#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entitites/Jeu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entitites/JeuTieBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UnitTest/UnitTestPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -560,6 +669,13 @@
           <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#testCreationMatch#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testUpdateWithPointWonBy#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testNewSetIfWin#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testWinMatch3#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testWinMatch3Tie#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testWinMatch5Tie#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#winSet#0;class#UnitTestMatch#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -569,22 +685,22 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
-            <element signature="e#1602#1603#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="method#TennisMatch#0;class#TennisMatch#0" expanded="false" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="method#gamesInCurrentSetForPlayer#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#gamesInSetForPlayer#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#isFinished#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#afficheScore#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#resetGame#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#winSetPlayer1#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#winSetPlayer2#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#setWinforPlayer2#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#newSet#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#balleDeMatch#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#endMatch#0;class#TennisMatch#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -607,26 +723,8 @@
           <folding>
             <element signature="e#398#399#0" expanded="true" />
             <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entitites/Points.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnitTest/UnitTestPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -639,20 +737,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entitites/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnitTest/UnitTestMatch.java">
+    <entry file="file://$PROJECT_DIR$/src/UnitTest/UnitTestPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="21" column="36" lean-forward="false" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
+          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -670,120 +760,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnitTest/UnitTestJeu.java">
+    <entry file="file://$PROJECT_DIR$/src/Entitites/Points.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entitites/Score.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entitites/ScoreJeu.java">
+    <entry file="file://$PROJECT_DIR$/src/UnitTest/AllUnitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
           <folding>
-            <element signature="e#101#102#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entitites/MatchType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="15">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UnitTest/UnitTestJeu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
           <folding>
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#286#287#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entitites/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entitites/ScoreNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="27" lean-forward="false" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+            <element signature="e#492#493#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entitites/ScoreJeu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <element signature="e#101#102#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#717#718#0" expanded="true" />
+            <element signature="e#751#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entitites/Score.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Entitites/JeuTieBreak.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="method#JeuTieBreak#0;class#JeuTieBreak#0" expanded="false" />
+            <element signature="method#updateWithPointWonBy#0;class#JeuTieBreak#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entitites/Jeu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="25" column="41" lean-forward="false" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        <state relative-caret-position="150">
+          <caret line="16" column="52" lean-forward="false" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
           <folding>
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#421#422#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entitites/ScoreNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#216#217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Entitites/JeuTieBreak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
+            <element signature="method#Jeu#0;class#Jeu#0" expanded="false" />
+            <element signature="method#updateWithPointWonBy#0;class#Jeu#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Entitites/TennisMatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="83" column="45" lean-forward="false" selection-start-line="83" selection-start-column="45" selection-end-line="83" selection-end-column="45" />
+        <state relative-caret-position="451">
+          <caret line="141" column="187" lean-forward="false" selection-start-line="141" selection-start-column="187" selection-end-line="141" selection-end-column="187" />
           <folding>
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#913#914#0" expanded="true" />
-            <element signature="e#943#944#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-            <element signature="e#1400#1401#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1578#1579#0" expanded="true" />
-            <element signature="e#1602#1603#0" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1694#1695#0" expanded="true" />
+            <element signature="method#TennisMatch#0;class#TennisMatch#0" expanded="false" />
+            <element signature="e#1292#1293#0" expanded="true" />
+            <element signature="e#1349#1350#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+            <element signature="e#1432#1433#0" expanded="true" />
+            <element signature="method#gamesInCurrentSetForPlayer#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#gamesInSetForPlayer#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#isFinished#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#afficheScore#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#resetGame#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#winSetPlayer1#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#winSetPlayer2#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#setWinforPlayer2#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#newSet#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#balleDeMatch#0;class#TennisMatch#0" expanded="false" />
+            <element signature="method#endMatch#0;class#TennisMatch#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UnitTest/AllUnitTest.java">
+    <entry file="file://$PROJECT_DIR$/src/UnitTest/UnitTestMatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="239">
+          <caret line="91" column="34" lean-forward="true" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#testCreationMatch#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testUpdateWithPointWonBy#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testNewSetIfWin#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testWinMatch3#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testWinMatch3Tie#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#testWinMatch5Tie#0;class#UnitTestMatch#0" expanded="false" />
+            <element signature="method#winSet#0;class#UnitTestMatch#0" expanded="false" />
           </folding>
         </state>
       </provider>

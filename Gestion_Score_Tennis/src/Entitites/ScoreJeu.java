@@ -19,7 +19,7 @@ public class ScoreJeu implements Score{
             case "15": this.score = "30"; break;
             case "30": this.score = "40"; break;
             case "40": this.score = "A"; break;
-            case "A": this.score = "WIN"; break;
+            case "A": setWin(); break;
         }
     }
 
@@ -27,5 +27,10 @@ public class ScoreJeu implements Score{
         switch (score){
             case "A": this.score = "40"; break;
         }
+    }
+
+    @Override
+    public void setWin() {
+        this.score = "WIN";
     }
 }
